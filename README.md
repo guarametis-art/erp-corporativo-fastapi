@@ -12,3 +12,18 @@ Sistema corporativo desenvolvido em Python e FastAPI para gestão operacional e 
 - JavaScript
 - GitHub
 - Render
+
+
+## Funcionalidades
+
+✔ Gestão de Usuários
+
+✔ Controle de Permissões
+
+✔ Agenda Corporativa
+
+✔ Dashboard Gerencial
+
+✔ Relatórios
+
+✔ Controle de Clientes
