@@ -1,12 +1,12 @@
-# DELLANNO ERP
+# GUARAMETIS ERP
 
-Sistema ERP desenvolvido para gestão interna da Dell Anno, com foco em controle de usuários, cadastros, auditoria, segurança e acompanhamento operacional.
+Sistema ERP desenvolvido para gestão interna de empresas, com foco em controle de usuários, cadastros, auditoria, segurança e acompanhamento operacional.
 
 ---
 
 ## Visão Geral
 
-O DellAnno ERP foi desenvolvido para centralizar processos administrativos e operacionais em uma única plataforma web.
+O Guara-Agenda ERP foi desenvolvido para centralizar processos administrativos e operacionais em uma única plataforma web.
 
 O sistema possui interface responsiva, autenticação segura, controle de permissões por perfil e registro completo das ações realizadas pelos usuários.
 
@@ -208,6 +208,8 @@ Deploy Automático
 ## Desenvolvido por
 
 Guarametis Soluções e Serviços
+
+https://www.guarametis.com.br/
 
 Sistema desenvolvido utilizando tecnologias modernas para garantir segurança, desempenho e escalabilidade.
 
