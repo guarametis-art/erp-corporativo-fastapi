@@ -1,1 +1,57 @@
+## Tecnologias e Arquitetura de Desenvolvimento
 
+A Guarametis Soluções e Serviços desenvolve sistemas personalizados com uma arquitetura organizada em camadas, buscando facilitar a manutenção, a segurança e a evolução das aplicações.
+
+### Backend — Lógica e processamento
+
+Responsável pelas regras de negócio, pelo processamento das informações e pela comunicação entre a interface e o banco de dados.
+
+- **Python 3:** linguagem utilizada no desenvolvimento do backend.
+- **FastAPI:** framework para construção de APIs e serviços.
+- **Uvicorn:** servidor ASGI para execução da aplicação Python.
+- **APIs:** comunicação entre os módulos, a interface e os serviços do sistema.
+
+### Frontend — Interface do usuário
+
+Responsável pela apresentação das informações e pela interação dos usuários com o sistema.
+
+- **HTML5:** estrutura das páginas.
+- **CSS3:** estilos e identidade visual.
+- **JavaScript:** interatividade e comportamento das interfaces.
+- **Jinja2:** geração de páginas HTML dinâmicas.
+- **Tailwind CSS:** apoio à construção e à organização dos estilos visuais.
+
+### Banco de dados — Organização das informações
+
+Camada responsável pelo armazenamento e pela consulta dos dados utilizados pelo sistema.
+
+A estrutura de dados é definida conforme os requisitos do projeto, considerando relacionamentos, integridade das informações e regras de negócio.
+
+### Segurança e controle de acesso
+
+Os sistemas podem incorporar mecanismos de segurança definidos conforme os requisitos de cada projeto, incluindo autenticação, controle de acesso por perfil e proteção das informações.
+
+### Hospedagem e implantação
+
+A arquitetura pode ser preparada para implantação em ambientes compatíveis com a aplicação, incluindo serviços de hospedagem como o **Render**, utilizado na estrutura do ERP Guarametis.
+
+O ambiente de implantação e a estratégia de publicação são definidos conforme as necessidades técnicas de cada projeto.
+
+### Desenvolvimento e manutenção
+
+Utilizamos ferramentas de versionamento e organização do código, como **Git e GitHub**, para apoiar o controle de alterações e a manutenção dos projetos.
+
+---
+
+### Desenvolvimento alinhado às necessidades do cliente
+
+As tecnologias, a arquitetura, os recursos de segurança e o ambiente de hospedagem são definidos de acordo com os requisitos e o escopo aprovado para cada sistema.
+
+**Guarametis Soluções e Serviços**  
+Tecnologia para organizar processos, integrar informações e apoiar a evolução dos negócios.
+
+🌐 [guarametis.com.br](https://guarametis.com.br)  
+📧 [mario.leme@guarametis.com.br](mailto:mario.leme@guarametis.com.br)  
+📱 [WhatsApp — (11) 96831-5802](https://wa.me/5511968315802)
+
+*Por gentileza, envie uma mensagem pelo WhatsApp antes de realizar uma ligação.*
