@@ -512,7 +512,7 @@ A implantação automática depende das configurações do serviço e da branch 
 
 ## Desenvolvido por
 
-**Guarametis Soluções e Serviços**
+** Mario Medeiros - Guarametis Soluções e Serviços **
 
 Sistema desenvolvido com tecnologias web para apoiar a gestão interna, a segurança da informação e a organização dos processos operacionais.
 
