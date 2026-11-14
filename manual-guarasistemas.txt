@@ -1,0 +1,181 @@
+ERP GUARA-SISTEMAS
+
+
+
+a) NAVEGAÇÃO
+0. INICIO			= Painel principal do sistema.
+1. Painéis			= Painel visual que reúne dados, gráficos e indicadores chaves.
+2. Sistemas			= Guara-Agenda / Guara-Copa
+3. CADASTRO		= Responsável pelo banco de dados dos Clientes, Colaboradores, Convidados e Arquitetos.
+4. CONFIGURAÇÃO	= Responsável dos parâmetros e itens dos módulos, “Projeto, Projeto Cliente, Loja, Perfil, Copa, Copa Itens e o Farol “.
+5. SISTEMA			= Responsável pelo parâmetro e acessos dos módulos e configuração dos “Usuários, Perfil de Acesso, Permissões e Logs”.
+6. ADMINISTRAÇÃO:	= Usuário, Perfil de Acesso, Permissões, Logs, Copa Previa
+
+2a.	 Dashboard OPERACIONAL
+
+2b. 			Dashboard Copa
+
+
+
+
+3. 		Sistema Guara-Agenda
+
+Clicar no ícone agenda, o primeiro passo (campos obrigatório:  selecionar um dia no calendário, selecionar a Loja, Sala, Cliente, Perfil, Copa, Quantidade de pessoas e horário) os demais campos são para compor o agendamento.
+
+3.1. Data
+Selecionar um dia na agenda.
+
+3.2. Loja
+Selecionar uma loja no combobox. (previamente cadastrado 5e)
+
+3.3. Sala
+Somente aparece os itens do combobox “Sala” se a “Loja” for selecionada primeiro.
+
+3.4. Cliente
+O cadastro do cliente vem do item 5.5, ao digitar um nome se tiver previamente cadastrado aparece uma lista de auto complete onde pode selecionar ou continuar digitando, se não estiver cadastrado clicar no botão + que irá para a tela de cadastro de cliente ao salvar o registro ele voltara para agenda.
+
+3.5. Colaborador
+O cadastro do colaborador vem do item 5.5, ao digitar um nome se tiver previamente cadastrado aparece uma lista de auto complete onde pode selecionar ou continuar digitando, se não estiver cadastrado clicar no botão + que irá para a tela de cadastro de colaborador ao salvar o registro ele voltara para agenda.
+
+3.6. Arquiteto
+O cadastro do arquiteto vem do item 5.5, ao digitar um nome se tiver previamente cadastrado aparece uma lista de auto complete onde pode selecionar ou continuar digitando, se não estiver cadastrado clicar no botão + que irá para a tela de cadastro de arquiteto ao salvar o registro ele voltara para agenda.
+
+3.7. Perfil
+Selecione no combobox o perfil do cliente no agendamento (ex: visita, apresentação, negociação, assinatura ...)
+
+3.8. Copa
+Selecionar no combobox o tipo de copa a ser reservada (ex: Básico, intermediário, completo, ...)
+
+3.9. Quantidade de pessoas
+Selecionar a quantidade para ser reservado o kit da copa.
+
+3.10. Convidados
+Ao clicar no botão + selecionar o convidado dentro do checkbox
+
+3.11. Horários 
+Após selecionar Data + Loja + Sala irá abrir a tabela de horário mostrando livres e ocupados, onde deve ser marcado no checkbox um horário sequencial ou apenas uma.
+
+3.12. Projeto Cliente
+
+Nesta tela tem de selecionar o “Farol” no combobox (ex: Aprovado, Negociando ou Reprovado), o “Tipo de Projeto” (ex: sala, quarto 1, quarto 2, cozinha, ...), motivo da reprovação se tiver, texto explicativo, “observações” texto explicativo. OBS: A data e numero do projeto vem automático quando salva o registro.
+
+
+
+
+
+3.13. Visualizar Dia
+
+Ao dar um click em um registro da lista ele e selecionada e pode enviar e-mail automaticamente para o Cliente, Colaborador e Arquiteto, clicando no botão “Enviar Confirmação” 
+
+
+3.14. Agendamentos
+
+Ao clicar no botão Agendamentos, mostrará uma lista de todos os agendamentos 
+Com um click o administrador tem de informar se foi ou não confirmado a presença selecionando no checkbox.
+Ao dar um duplo click em um registro ele volta ao modo de edição, onde pode alterar os campos.
+
+3.15. Sistema Guara-Copa
+
+Mostra o cálculo dos kits da copa informado na configuração/copa itens, para saber o valor de provisionamento do dia.
+
+4.1.	Cadastros
+ 
+
+Gerenciar o banco de dados essenciais.
+
+4.2. Cadastro de clientes
+
+Os campos devem ser preenchidos e o e-mail tem de ser valido, para salvar o registro.
+Na ação temos a “lixeira” (exclusão) e “voltar” (que será utilizado durante um agendamento se não tiver o cliente no banco, ele faz o cadastro e volta para o agendamento)
+Ao dar um click ele entra no modo de edição de registro.
+Todos os Cadastros (Cliente, Colaborador, Convidado e Arquiteto) utiliza o mesmo modelo acima.
+
+5.1.		Configuração - Projetos
+
+Cadastrar tipo de projeto
+
+
+
+
+
+
+5.2. 		Projeto do Cliente
+
+Ao selecionar o “Cliente” informar o “Farol” (Aprovado / Negociando / Reprovado), informar o “Arquiteto” responsável do projeto, marcar no checklist o “tipo de projeto” (quanto, sala, cozinha, ....)
+Se o “Farol” for “Reprovado” informar um texto explicando o motivo.
+OBS: A data e o numero do projeto ele e automático pegando a data do sistema e fazendo a contagem crescente do numero do projeto (a cada ano ele volta para 1)
+
+
+
+
+
+
+
+
+5.3. 		Configuração Lojas e Salas
+
+Primeiro informar a “Loja” e endereço, salvar o registro no “Salvar Loja” 
+Se tiver salas cadastra-la e informar a capacidade depois “Salvar Sala”
+Caso haja varias salas selecionar na lista a “Loja” para continuar o cadastro das salas.
+
+5.4. 		Cadastro de Perfis
+
+Informar os tipos de perfis dos clientes.
+5.5.		Cadastro de Copa
+
+Cadastrar o tipo de copa para montar os kits.
+
+5.6. 		Cadastro Itens da copa.
+
+Cadastro onde será utilizado para montagem do kit Copa e Previa Copa.
+
+
+
+
+5.7. 		Cadastro Kit da Copa
+
+Selecionar o “Tipo de Copa” e montar o kit selecionando no checklist + quantidade.
+
+5.8.		Configuração de Farol
+
+Cadastrar o Status do Projeto no mês. (Aprovado / Negociado / Reprovado)
+
+
+
+6.1.		Administração Usuário
+
+Cadastrar usuário e selecionar o “Perfil de Acesso” (Administrador / Operador / Copa / ...) 
+
+6.2.		Administração Perfil Acesso
+
+Cadastrar um modelo para ser acessível por um grupo de pessoas.
+
+
+
+6.3. 		Administração Permissões
+
+Ao selecionar o “Perfil de Acesso” marcar no checklist os módulos e sua permissão, para o grupo de usuários.
+
+6.4.		Administração Logs
+
+O log de sistema serve principalmente para acompanhar o funcionamento técnico da aplicação.
+Ele responde perguntas como:
+* O sistema iniciou corretamente? 
+* Houve algum erro? 
+* Uma API recebeu uma requisição? 
+* Uma consulta ao banco demorou muito? 
+* Um serviço foi executado? 
+* Ocorreu uma exceção? 
+* Um processo automático foi executado?
+
+A auditoria serve para registrar ações relevantes realizadas pelos usuários ou processos, principalmente aquelas que alteram informações ou configurações.
+
+
+
+
+
+
+
+
+
+
